@@ -1,0 +1,137 @@
+
+body{
+    background: url(../image/back-port1.jpg) no-repeat center center fixed;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+:root{
+    --text-color: black;
+    --font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --hover-color:dodgerblue;
+    --box-shadow:  0px 10px 30px gray;
+}
+
+/* ---------navigation bar--------- */
+
+.header-area .main-menu{
+    padding: 0 15%;
+}
+.header-area .main-menu .nav-item .nav-link{
+   
+   padding: 0 2rem;
+   font-family:var(--font-family);
+   text-transform: uppercase;
+   color:var(--text-color);
+}
+.header-area .main-menu .nav-item a:hover{
+   
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-transform: uppercase;
+   color:var(--hover-color);
+}
+/* ---------navigation bar end--------- */
+
+
+/* ---------main-page---------- */
+
+.main-area .main-page .site-title{
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding: 10% 15%;
+}
+.main-area .main-page .vanshika{
+    padding: 5% 3%;
+    
+}
+/* ---------main-page end---------- */
+
+
+/* ---------about---------*/
+.main-area .about-area{
+    padding: 2% 15%;
+}
+.main-area .about-area .about-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+/*-----about ends-------*/
+
+/* projects-area */
+.main-area .project-area h1{
+    padding: 2rem;
+}
+.main-area .project-area img{
+    height: 20rem;
+}
+.main-area .project-area .projects{
+    
+    padding: 2rem;
+    transition: box-shadow 1s;
+}
+.main-area .project-area .projects .medify:hover{
+    background-color:black;
+    color: white;
+    box-shadow: var(--box-shadow);
+}
+.main-area .project-area .projects .bingo:hover{
+    background-color:black;
+    color: white;
+    box-shadow: var(--box-shadow);
+}
+.main-area .project-area .projects .aeon:hover{
+    background-color:black;
+    color: white;
+    box-shadow: var(--box-shadow);
+}
+/* projects-area ends*/
+
+/* achievements-area */
+
+.main-area .achievements-area{
+    margin: 10% 15%;
+}
+.main-area .achievements-area img:hover{
+    box-shadow: var(--box-shadow);
+}
+.main-area .achievements-area h2{
+    padding-bottom: 1rem;
+}
+
+/* achievements-area ends */
+
+/* profiles area*/
+
+.main-area .profiles-area img{
+    
+    width: 100%;
+    height: 13rem;
+    margin-bottom: 10%;
+}
+
+/* profiles area ends*/
+
+
+/* footer */
+.page-footer{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}
+.page-footer .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white;
+}
+
+.page-footer .fa:hover {
+    opacity: 0.7;
+}
+/* footer ends */
